@@ -1,0 +1,31 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cluster",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "dev",
+        "--no-open"
+      ],
+      "port": 3001
+    },
+    {
+      "name": "price",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "dev:price",
+        "--no-open"
+      ],
+      "port": 3002
+    },
+    {
+      "name": "storybook",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "storybook"
+      ],
+      "port": 6001
+    }
+  ]
+}
